@@ -14,6 +14,7 @@ import se.svt.oss.encore.model.output.Output
 @JsonSubTypes(
     JsonSubTypes.Type(value = AudioEncode::class, name = "AudioEncode"),
     JsonSubTypes.Type(value = SimpleAudioEncode::class, name = "SimpleAudioEncode"),
+    JsonSubTypes.Type(value = X264NetIntEncode::class, name = "X264NetIntEncode"),
     JsonSubTypes.Type(value = X264Encode::class, name = "X264Encode"),
     JsonSubTypes.Type(value = X265Encode::class, name = "X265Encode"),
     JsonSubTypes.Type(value = GenericVideoEncode::class, name = "VideoEncode"),
