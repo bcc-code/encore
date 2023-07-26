@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2020 Sveriges Television AB
+// SPDX-FileCopyrightText: 2023 BCC Media STI
 //
 // SPDX-License-Identifier: EUPL-1.2
 
